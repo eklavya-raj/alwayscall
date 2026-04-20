@@ -1,0 +1,16 @@
+- [x] Expo-based app is configured for Stream Video development builds and is not expected to run in Expo Go
+- [x] Stream Video installation requirements from the React Native and Expo docs are reflected in app setup
+- [x] Supabase magic-link login creates or restores an authenticated session
+- [x] Newly authenticated users without a completed profile are routed to an account creation page
+- [x] Returning users with completed profiles skip onboarding and enter the authenticated app flow
+- [x] Stream tokens are generated server-side for authenticated Supabase users
+- [x] The mobile app uses a singleton Stream client with token-provider-based authentication
+- [x] Authenticated users can create passwordless rooms
+- [x] Authenticated users can create password-protected rooms
+- [x] Invalid room passwords are rejected without joining the room
+- [x] Two authenticated users can join the same room and exchange audio/video
+- [x] Leaving a room or logging out cleans up the active Stream call state
+- [x] A room owner can search or select any registered user and send that user a room invite
+- [x] An invited user can accept the invite from an in-app prompt and join the target room
+- [x] The invite architecture leaves a clear extension path for future Stream ringing and push notification support
+- [x] Real-device validation is part of the implementation plan for camera, microphone, and invite behavior
